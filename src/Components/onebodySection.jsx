@@ -1,5 +1,7 @@
 import { Box, Button, Typography } from '@mui/material'
 import React from 'react'
+import heroImage from "../images/hero-l.png";
+
 
 export default function OneBodySection() {
   return (
@@ -35,6 +37,14 @@ export default function OneBodySection() {
  }}>
                     Get Help Now
                     </Button>
+                    <img
+                        style={{
+                            width: "500px",
+                            position: "absolute",
+                            bottom: "-85px",
+                        }}
+                        src={heroImage}
+                    ></img>
                 </Box>
             
                     
